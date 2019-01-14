@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bzip2</id>
+    <version>1.0.5</version>
+    <packageSourceUrl>https://github.com/d1vanloon/chocolatey-packages/</packageSourceUrl>
+    <owners>David Van Loon</owners>
+    <title>bzip2 (Install)</title>
+    <authors>Julian R Seward</authors>
+    <projectUrl>http://www.bzip.org/</projectUrl>
+    <tags>bzip2 bzip bunzip2 compression</tags>
+    <summary>bzip2 is a free and open-source file compression program</summary>
+    <description>bzip2 is a free and open-source file compression program. This package includes the bzip2, bunzip2, bzcat, and bzip2recover utilities.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
